@@ -26,22 +26,22 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from noblelte device
-$(call inherit-product, device/samsung/noblelte/device.mk)
+# Inherit from nobleltezt device
+$(call inherit-product, device/samsung/nobleltezt/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_noblelte
-PRODUCT_DEVICE := noblelte
+PRODUCT_NAME := lineage_nobleltezt
+PRODUCT_DEVICE := nobleltezt
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_MODEL := SM-N920C
+PRODUCT_MODEL := SM-N9208
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=nobleltejv \
+    PRODUCT_NAME=nobleltezt \
     TARGET_DEVICE=noblelte \
-    PRIVATE_BUILD_DESC="nobleltejv-user 7.0 NRD90M N920CXXU3CQH6 release-keys"
+    PRIVATE_BUILD_DESC="nobleltezt-user 7.0 NRD90M N9208ZTS5CRH3 release-keys"
 
-BUILD_FINGERPRINT := "samsung/nobleltejv/noblelte:7.0/NRD90M/N920CXXU3CQH6:user/release-keys"
+BUILD_FINGERPRINT := "samsung/nobleltezt/noblelte:7.0/NRD90M/N9208ZTS5CRH3:user/release-keys"
