@@ -38,5 +38,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltezt/include
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_nobleltezt_defconfig
 
+# Manifest
+DEVICE_MANIFEST_FILE += device/samsung/nobleltezt/manifest.xml
+
 # Radio
 BOARD_MODEM_TYPE := ss333
