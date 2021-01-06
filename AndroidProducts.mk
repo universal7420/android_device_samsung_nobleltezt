@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nobleltezt.mk
+    $(LOCAL_DIR)/rr_nobleltezt.mk
     
 COMMON_LUNCH_CHOICES := \
-    lineage_nobleltezt-user \
-    lineage_nobleltezt-userdebug \
-    lineage_nobleltezt-eng
+    rr_nobleltezt-user \
+    rr_nobleltezt-userdebug \
+    rr_nobleltezt-eng
