@@ -28,7 +28,7 @@
 -include vendor/samsung/noblelte/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := nobleltextc,nobleltezt
+TARGET_OTA_ASSERT_DEVICE := noblelte,nobleltextc,nobleltezt
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltezt/include
